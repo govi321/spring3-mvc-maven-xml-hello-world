@@ -22,5 +22,5 @@ stage ('deploy'){
        bat '''copy C:\\Program Files (x86)\\Jenkins\\workspace\\tomcat_deployment\\target\\*.war  C:\\Users\\gujjula'$\\Downloads\\apache-tomcat-8.5.43\\webapps\\'''
    }
 }
-
+...........
 
