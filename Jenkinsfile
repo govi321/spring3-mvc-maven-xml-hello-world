@@ -1,5 +1,5 @@
 node {
-   def mvnHome
+   def mvnHome = tool 'M3'
    stage('getscm') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/govi321/spring3-mvc-maven-xml-hello-world.git'
